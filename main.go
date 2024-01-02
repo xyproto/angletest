@@ -11,12 +11,11 @@ import (
 )
 
 func angleLength(input uint8) (uint8, uint8) {
-	const steps = 10
 	const twopi = 2 * math.Pi
+	const steps = 10
 	if input == 0 {
 		return 0, 0
 	}
-	// TODO: Do not use many values for the 0 length! Only use the input value 0 for the length 0.
 	length := (input / steps) * steps
 	inputFloat64 := float64(input) / 255.0
 	angleByte := uint8(math.Mod(inputFloat64*steps*twopi, twopi) * (255.0 / twopi))
