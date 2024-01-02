@@ -2,7 +2,7 @@
 
 Represent an angle + a quantized vector length as a single byte.
 
-### Encoding function
+### Decoding function
 
 ```go
 func angleLength(input uint8) (uint8, uint8) {
@@ -18,7 +18,7 @@ func angleLength(input uint8) (uint8, uint8) {
 }
 ```
 
-### Encoding overview
+### Decoding overview
 
 Input and output values + images:
 
