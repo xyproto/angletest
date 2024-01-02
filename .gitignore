@@ -1,0 +1,6 @@
+*.bak
+*.o
+*.swp
+*.tmp
+angletest
+include.txt
