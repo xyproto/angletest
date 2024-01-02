@@ -1046,6 +1046,12 @@ Input and output values + images:
 
     input 255 -> angle 0.000000, length 0.980392
 
+### Future plans
+
+- [ ] Use fewer values to represent a length of 0, perhaps.
+- [ ] Let the length stay the same for each full round, maybe.
+- [ ] Create a test program that has an entire vector field where each vector is represented by a single byte.
+
 ### General info
 
 * License: BSD3
